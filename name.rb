@@ -1,3 +1,6 @@
-puts "Hi there! What's you're name?"
-name = gets.chomp
-puts ("Hello " + name +", I'm Karro's code!")
+puts "Hi there! What's you're first name?"
+firstname = gets.chomp
+puts "Cool, and your last name?"
+lastname = gets.chomp
+puts ("Hey #{firstname} #{lastname}!")
+
