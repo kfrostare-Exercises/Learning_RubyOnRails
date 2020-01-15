@@ -1,10 +1,13 @@
-# Given
+# Creating an argument. 
 
 family = {
     uncles: ["bob", "joe", "steve"],
     sisters: ["jane", "jill", "beth"],
     brothers: ["frank", "rob", "david"],
-    aunt: ["mary", "sally", "susan"]
+    aunts: ["mary", "sally", "susan"]
 }
 
-puts family[:sisters] + family[:brothers]
+sisters = family.select {|fam| fam["sisters"]}
+brothers = family.select {|fam| fam["brothers"]}  
+
+puts close_family = [brothers,sisters]
