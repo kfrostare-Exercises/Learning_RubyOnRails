@@ -8,6 +8,7 @@ family = {
 }
 
 sisters = family.select {|fam| fam["sisters"]}
-brothers = family.select {|fam| fam["brothers"]}  
+brothers = family.select {|fam| fam["brothers"]} 
 
-puts close_family = [brothers,sisters]
+puts fam:sisters
+puts fam:brothers
