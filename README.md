@@ -3,7 +3,7 @@
 During this introduction we explore Ruby by doing exercises in IRB (Interactive Ruby Shell). 
 
 *More information below the image.*
-![Learning Ruby on Rails](rubyonrails.jpg)
+![Learning Ruby on Rails](<img src="rubyonrails.jpg" width="400" height="400">
 
 ### The Ruby exercises taught:
 **Datatypes**
